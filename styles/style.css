@@ -1,18 +1,212 @@
-.logo{
+/* navbar started */
+
+.logo {
     width: 165px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #ffffff;
 }
-.nav-text{
+
+.nav-text {
     font-size: 15px;
     font-weight: 300;
 }
-.franchise{
+
+.franchise {
     background-color: transparent;
     color: #ffffff;
     border: 1px solid white;
     padding: 15px 25px;
     border-radius: 25px;
+    font-size: 14px;
 }
+
+.order-btn {
+    background-color: #ed1c24;
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.arrow-icon {
+    color: #ed1c24;
+    background-color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+/* navbar ended */
+/* content sterted */
+@font-face {
+    font-family: futurak;
+    src: url(/fonts/futurak.ttf);
+}
+
+@font-face {
+    font-family: quick;
+    src: url(/fonts/static/Quicksand-Light.ttf);
+}
+
+.head-para {
+    font-family: quick;
+    text-align: center;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 50px;
+    padding-top: 70px;
+    font-weight: 300;
+}
+
+.logo-text {
+    font-family: futurak;
+    font-size: 53px;
+    font-weight: 300;
+    line-height: 70px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+
+}
+
+.product-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px 15px;
+    gap: 30px;
+
+
+
+}
+
+.lazy {
+    width: 250px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+.butns {
+    width: 174px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 15px 25px;
+}
+
+.maindiv {
+    background-color: rgba(255, 255, 255, 0.06);
+    margin-top: 40px;
+
+}
+
+
+
+.branches {
+    font-family: quick;
+    text-align: center;
+    padding: 70px;
+    line-height: 45px;
+    font-size: 18px;
+
+}
+
+.txt .txt1 {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    color: red;
+}
+
+.txt h2 span {
+    font-family: 'futurak';
+    font-size: 32px;
+}
+
+.txt h2 {
+    font-family: quick;
+    font-size: 32px;
+}
+
+.txt .txt2 {
+    font-size: 16px;
+    letter-spacing: 0.03rem;
+    color: #FFFFFF;
+}
+
+.txt .txt2 {
+    margin-top: 20px;
+}
+
+.txt3 .txt4 {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0.03rem;
+    color: #FFFFFF;
+}
+
+.franchise1 {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.txtt {
+    margin-top: 50px;
+}
+
+.fas {
+    font-size: 15px;
+    color: #ff0000;
+    letter-spacing: 1rem;
+
+}
+.logo-txt2{
+    font-family: futurak;
+    font-size: 32px;
+}
+.txxt h2{
+    font-family: quick;
+    font-size: 32px;
+    
+}
+.loc{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.ph{
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+.brnch2{
+    display: flex;
+    justify-content: center;
+    margin: 35px 125px 1px -45px;
+    gap: 30px;
+}
+.franchise2{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 10px 22px;
+    margin-top: 50px;
+}
+
+/* content ended */
